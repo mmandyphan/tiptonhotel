@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Feedback</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div style="background-image: url('https://wallpapercave.com/wp/wp1355712.jpg');">
+
+</head>
+<body>
+	<br><br><br>
+	<form action="success2.html" id="details_div" class="main-div">
+	<center>	<h2> We value your feedback! </h2>
+		<i>Please enter your comments below:</i>
+<center>
+				What did you like about your stay at the hotel? <br><input type="text" placeholder="Type here..." 
+			id="stay"/><br>
+				What was the reason for your visit? <br><input type="text" placeholder="Type here..." 
+			id="reason"/><br>
+				Were the staff friendly and helpful? <br><input type="text" placeholder="Type here..." 
+			id="staff"/><br>
+				Do you think that the hotel provides value for money?<br><input type="text" placeholder="Type here..." id="value"/><br>
+				What can we do to improve our service?<br> <input type="text" placeholder="Type here..." 
+			id="improve"/><br>
+				<br>
+
+			<button type = "submit" onclick="send()">Send</button>			
+			<form action="tiptonhotel.html">
+			<button type="submit">Return</button></center>
+
+
+			<br><br><br><br>
+
+
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBezjWIMnr9zRrIKbVC_p4XHHYT0aWQp5U",
+    authDomain: "bus118feedback.firebaseapp.com",
+    databaseURL: "https://bus118feedback.firebaseio.com",
+    projectId: "bus118feedback",
+    storageBucket: "bus118feedback.appspot.com",
+    messagingSenderId: "42218332027",
+    appId: "1:42218332027:web:2987609e2074e2a6e967de"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="survey123.js"></script>
+</body>
+</html>		

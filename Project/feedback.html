@@ -1,0 +1,62 @@
+
+!<!Doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Feedback</title>
+
+</head>
+
+<body>
+<div style ="background-image: url('https://wallpapercave.com/wp/wp1355712.jpg');">
+<div class="feedback">
+	  <br><br><br>
+	<link rel ="stylesheet" type = "text/css" href = "style.css">
+	<div class="form">
+	<form action="success2.html" id="feedback_div" class="main-div" style="display:block">
+	<center>	<h2> We value your feedback! </h2>
+		<i>Please enter your comments below:</i>
+<center>
+<label id = "q1"> <p align = "center">What did you like about your stay with the hotel? </p> <center></label><br> <input type = "text" placeholder="Type here..." size = "30"> <br>
+
+<label id = "q2"> <p align = "center">What was the reason for your visit? </p> </label> <input type ="text" placeholder= "Type here..." size = "30"> <br>
+
+<label id = "q3"> <p align = "center">Were the staff friendly and helpful?</p> </label>  <input type ="text" placeholder = "Type here..." size ="30"> <br>
+
+<label id = "q4"> <p align = "center">Do you think that the hotel provides value for money?</p> </label>  <input type ="text" placeholder = "Type here..." size ="30"> <br>
+
+<label id = "q5"> <p align = "center">What can we do to improve our service?</p> </label>  <input type ="text" placeholder = "Type here..." size ="30"> <br>
+<br>
+		<center> <button type = "submit" onclick="send()">Send</button>
+			<form action="tiptonhotel.html">
+		<button type="submit">Return</button></center>
+
+<br><br><br><br>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBezjWIMnr9zRrIKbVC_p4XHHYT0aWQp5U",
+    authDomain: "bus118feedback.firebaseapp.com",
+    databaseURL: "https://bus118feedback.firebaseio.com",
+    projectId: "bus118feedback",
+    storageBucket: "bus118feedback.appspot.com",
+    messagingSenderId: "42218332027",
+    appId: "1:42218332027:web:2987609e2074e2a6e967de"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script><script src="indexfeed.js"></script>
+</script>
+
+</form>
+	</div>
+	</div>
